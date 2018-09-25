@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+	text-decoration: none;
+}
+
+html {
+	background: #FFFFFF;
+}
+
+body {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	text-align: center;
+}
+
+.logo {
+	font-family: Chantal;
+	color: #000000;
+	font-size: 48px;
+	font-weight: 700;
+/*	text-align: center;*/
+	
+	
+}
+
+.text {
+	font-family: Chantal;
+	font-size: 24px;
+	font-weight: 700;
+/*	overflow: auto;*/
+/*	text-align: center;*/
+	
+}
+
+.subtitle {
+	text-align: center;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	
+}
+
+h2 {
+/*	float: left;*/
+	padding-left: 10px;
+
+}
+
+.col img {
+	width: 70%;
+	height: auto;
+	display: block;
+}
+
+.col {
+	width: 50%;
+/*	float: right;*/
+	margin: 1%;
+}
+
+
+.grey {
+	color: #797979;
+}
+
+.btn {
+/*
+	font-family: Chantal;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 700;
+*/
+}
+
+.blue {
+	color: #20badb;
+	font-size: 48px;
+}
+
+.onimage {
+	font-size: 48px;
+	transform: scale(1.044,1.044);
+}
+
+
+/*.hero-box {*/
+	height: 338px;
+	background-color: #FF00D7;
+	background-image: url(images/hero-image.jpg);
+	background-size: cover;
+	margin: 1%;
+}
+
+/*h1 {*/
+	color: #FEFEFE;
+	font-size: 55px;
+	padding-top: 120px;
+	padding-left: 60px;
+}
+
+
+
+/*TABLET*/
+/*@media (max-width:768px){*/
+	h1 {
+		font-size: 40px;
+		text-align: center;
+		padding-left: 0px;
+	}
+	
+	.col {
+		width: 48%;    
+	}
+}
+
+/*MOBILE*/
+/*@media (max-width:400px){*/
+	h1 {
+		font-size: 28px;
+	}
+	
+	.col {
+		width: 98%;
+	}
+	
+	.hidden-xs {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
